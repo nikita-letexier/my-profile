@@ -1,0 +1,132 @@
+body{
+    background-color: pink;
+/*  background-image: linear-gradient(
+    to right,
+    #e52e71,
+    #f06d06,
+    rgb(255, 255, 0),
+    pink
+  );*/
+text-align: center ;
+font-family: 'Roboto', fangsong;
+
+font-size: 45px; 
+}
+
+h1{ 
+    font-weight: bolder;
+    font-family: Constantia;
+    font-size: 78px;
+    color: #ff7960;
+    text-transform: initial; 
+}
+
+h2{ 
+color: #ff4343f7 ; 
+}
+
+h3{ 
+color: #6e031a ; 
+line-height: inherit; 
+}
+
+img{ 
+height: 300px;
+border-radius: 550px;
+}
+
+h5{ 
+    font-size: 0.83em;
+    color: #ff4343f7
+}
+
+ul {
+padding: 0px; 
+list-style-type: none;
+color: grey; 
+}
+
+ul li a { 
+text-decoration: none;
+font-size: 32px ; 
+line-height: 1.8px ; 
+}
+
+a {
+	text-decoration: none; 
+}
+
+.fas {
+    font-weight: 900;
+    font-size: 60px;
+    padding: 8px;
+}
+
+.container { 
+	margin: 0 auto;
+ 
+}
+
+.card-white{ 
+background: #fff9f08c ;
+border: 1px solid maroon ;
+padding: 10px 7px ;
+margin: 20px auto;
+border-radius: 50px ; 
+box-shadow: 10px 10px 8px rgba(0,0,0,1); 
+width: 800px;
+}
+
+.card-white li {
+	display: inline-block; 
+}
+
+.fab {
+    font-weight: 300;
+    padding: 5px;
+    line-height: 0; 
+    display: inline-block; 
+    font-size: 60px;
+ }
+
+ .blue-button{
+ 	background-color: #ff604e;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	font-size: 30px;
+ 	font-weight: bolder;
+ 	padding: 9px 8px;
+ 	color: black;
+ 	font-family: helvetica;
+ 	border-radius: 15px;
+ }
+
+ @media (max-width: 400px) {
+ 	body {
+ 		background-color: red;
+ 		font-size: 20px;
+ 	}
+ 	.card-white{
+ 		width: 300px;
+ 	}
+
+ 	h1{
+ 		font-size: 24px;
+ 	}
+ 	.blue-button{
+ 		font-size: 18px;
+ 	}
+ }
+
+ @media(max-width: 800px){
+ 	.card-white{
+ 		width: 550px
+ 	}
+ 	h1{
+ 		font-size: 19px
+ 	}
+ 	.blue-button{
+ 		font-size: 16px
+ 	}
+ }
+
